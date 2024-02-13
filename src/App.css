@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.red {
+  color: red
+}
+
+.left {
+  text-align: left;
+}
+
+.Home {
+  text-align: center;
+}
+
+#cool {
+  color: aquamarine;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
