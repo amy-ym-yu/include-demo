@@ -1,0 +1,22 @@
+header {
+    display: flex; 
+    padding: 0 5rem;    /* top right bottom left */
+
+    /* to display content with block styling
+    display: block;
+    padding: 1rem 5rem 2rem; */
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: blueviolet;
+    color: blanchedalmond;
+}
+
+nav a {
+    margin: 0 10px;
+    color: blanchedalmond;
+}
+
+nav a:hover {
+    color:aqua;
+}
