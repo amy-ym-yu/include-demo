@@ -5,8 +5,10 @@ import { Home } from './components/home';
 import { AboutMe } from './components/aboutMe';
 import { Error } from './components/error';
 import { Header } from './components/header';
+import { fetchPun } from './fetchers';
 
 function App() {
+  fetchPun()
   return (
     <div className="App">
       <Header/>
